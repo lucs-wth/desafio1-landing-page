@@ -1,0 +1,263 @@
+*{ 
+    margin: 0px;
+}
+
+#header{
+    background-color:#303030;
+    width: 1440px;
+    height: 475px;
+    left: 0px;
+    top: 0px;
+} 
+
+#title{ 
+    position: absolute;  
+    color: white;
+    width: 1024px;
+    height: 72px;
+    left: 62px;
+    top: 206px;
+    font-family:'inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+}
+
+#text{
+    position: absolute;
+    color: white;
+    width: 1024px;
+    height: 28px;
+    left: 62px;
+    top: 298px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#containerInfo{
+    width: 1440px;
+    height: 229px;
+    top: -42px;
+    left: -656px;
+    background-color:#F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.infos{
+    position: absolute;
+    width: 292px;
+    height: 66.18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    white-space: nowrap;
+}
+
+.numbers{
+    position: absolute;
+    width: 292px;
+    height: 66.18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#containerA{
+    width: 292px;
+    height: 66px;
+    margin: 96px 49.5px 67px 171px;
+}
+
+#containerB{
+    width: 354px;
+    height: 67px;
+    margin: 96px 49.5px 66px 49.5px; 
+}
+
+#containerC{
+    width: 361px;
+    height: 88px;
+    margin: 96px 64px 45px 45.9px;
+}
+
+#containerStory{
+    width: 1440px;
+    height: 779px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#image{
+    width: 510px;
+    height: 605px;
+    left: 876px;
+    top: 781px;
+    border-radius: 30px;
+    margin: 82px 40px 92px auto;
+}
+
+#titleStory {
+    position: absolute;
+    width: 735px;
+    height: 161px;
+    left: 5.35%;
+    right: auto;
+    top: 923px;
+    font-family:"inter";
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 40px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    white-space: nowrap;
+    
+}
+
+#textStory{
+    position: absolute;
+    width: 735px;
+    height: 161px;
+    left: 5.35%;
+    right: auto;
+    top: 1065px;
+    font-family:"inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#form{
+    width: 1440px;
+    height: 638px;
+    left: 0px;
+    top: 1478px;
+    background: #303030;
+}
+
+#textForm{
+    position: absolute;
+    width: 944px;
+    height: 48px;
+    left: 248px;
+    top: 1590px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;    
+}
+
+#inputName{
+    position: absolute;
+    width: 478px;
+    height: 72px;
+    left: 466px;
+    top: 1683px;
+    background: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-left: 28px;
+    
+}
+
+#inputEmail{
+    position: absolute;
+    width: 478px;
+    height: 72px;
+    left: 466px;
+    top: 1820px;
+    background: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-left: 28px;
+}
+
+#inputName::placeholder{
+    width: 90px;
+    height: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 19px;
+    padding-bottom: 23px;
+    color: rgba(0, 0, 0, 0.3);
+
+}
+
+#inputEmail::placeholder{
+    width: 90px;
+    height: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 19px;
+    padding-bottom: 23px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#textButton{
+    width: 193px;
+    height: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-left: 38px;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    padding-right: 44px;
+}
+
+button{
+    position: absolute;
+    width: 286px;
+    height: 74px;
+    left: 577px;
+    top: 1982px;
+    background: #C07212;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #df9f51;
+    transform: translateY(-2px);
+}
+
+
